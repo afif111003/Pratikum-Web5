@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JavaScript Tipe Data</title>
+</head>
+<body>
+    <h1>Belajar JavaScript Tipe Data</h1>
+    <script>
+        // Number
+        let num = 80
+        let decimal = 0.4
+        let mines = -1
+        console.log(num)
+        console.log(decimal)
+        console.log(mines)
+
+        //String
+        let name = "Fattah Rafif Syauqi"
+        let salam = `Selamat Pagi ${name}`
+        console.log(salam)
+        let concat = "Selamat Pagi " + name;
+        console.log(concat)
+
+        // Boolean
+        let perempuan = true
+        let laki2 = false
+        console.log(perempuan)
+        console.log(laki2)
+
+        // NULL
+        let nulls = null
+        console.log(nulls)
+
+        // Array
+        let fruits = ["pisang", "semangka", "kiwi", "melon", "jeruk"]
+        console.log(fruits)
+        console.log("tarik sis " + fruits[1])
+        fruits[0] = "mangga"
+        console.log(fruits[0])
+
+        // Destructing Array
+        let barang = [
+        ["gelang", "kalung", "cincin", "emas"],
+        ["kemeja", "kaos", "jilbab", "celana"]
+        ]
+
+        let [perhiasan, pakaian] = barang
+        console.log(perhiasan)
+        console.log(pakaian)
+
+        // typeof
+        console.log(typeof laki2)
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JavaScript Operator </title>
+</head>
+<body>
+    <h1>Belajar JavaScript Operator</h1>
+    <script>
+        // aritmatika
+        let num;
+        num = -100
+        console.log(num)
+        num = +100
+        console.log(num)
+
+        num = 1+2
+        console.log(num)
+
+        num = 1-2
+        console.log(num)
+
+        num = 2*2
+        console.log(num)
+
+        num = 4/2
+        console.log(num)
+
+        num = 8**2
+        console.log(num)
+
+        num = 6+8/2+6
+        console.log(num)
+
+        num = 5%2
+        console.log(num)
+
+        // incremental dan decremental
+        let val;
+        // incremental
+        val = 2
+        val++
+        console.log(val)
+        // decremental
+        val = 2
+        val--
+        console.log(val)
+
+        // spread operator
+
+        // meyebar
+        let InformatikaMahasiswa = ["falah", "dinov", "bagus"]
+        console.log(InformatikaMahasiswa)
+        let RplMahasiswa = ["dandy", "zidan", "siyun"]
+        console.log(RplMahasiswa)
+        let kumpul = [...InformatikaMahasiswa, ...RplMahasiswa, "check"]
+        console.log(kumpul)
+
+        let Orang = {
+            name: "Afif",
+            nim: "19201021",
+            teman: [...kumpul]
+        }
+        console.log(Orang)
+
+    </script>
+</body>
+</html>
